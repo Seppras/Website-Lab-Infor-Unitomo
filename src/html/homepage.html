@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/Homepage.css" rel="stylesheet" />
+    <link href="../css/style_out.css" rel="stylesheet" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Labotarium Fakultas Teknik</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="w-full">
+      <nav class="bg-white border-gray-200">
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <a href="#" class="flex items-center">
+            <img
+              src="../../public/img/fakultas-teknik-1.png"
+              class="h-20 mr-3"
+              alt="Flowbite Logo" />
+          </a>
+          <div class="flex">
+            <button
+              data-collapse-toggle="navbar-cta"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-cta"
+              aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14">
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15" />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="items-center justify-between hidden w-full md:flex md:w-[80%] md:order-1"
+            id="navbar-cta">
+            <ul
+              class="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg bg-white md:flex-row md:space-x-14 md:mt-0 md:border-0">
+              <li class="flex flex-row">
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-black rounded md:bg-transparent md:p-0 font-sans font-semibold"
+                  aria-current="page"
+                  >Home</a
+                >
+                <!-- lingkaran biru -->
+                <div
+                  class="rounded-full w-2 h-2 bg-[#19A7CE] mt-2 mx-2 hidden lg:block"></div>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-black rounded md:p-0 font-sans font-semibold"
+                  >Praktikum</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-black rounded md:p-0 font-sans font-semibold"
+                  >Kerja Praktek</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-black rounded md:p-0 font-sans font-semibold"
+                  >Aktivitas Lab</a
+                >
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="text-white bg-[#19A7CE] focus:ring-4 focus:outline-none font-medium rounded[5px] text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:focus:ring-blue-800">
+              <a href="../html/Login.html">Login</a>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+
+    <main>
+      <!-- Hero Section Start -->
+      <section id="home" class="pt-20">
+        <div class="container">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="self-start px-4">
+              <div class="sm:text-left md:text-left lg:text-left">
+                <h1
+                  class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-wider capitalize font-sans text-custom1">
+                  Laboratorium
+                </h1>
+                <h1
+                  class="text-3xl sm:text-4xl md:text-5xl font-bold tracking-wider capitalize font-sans text-custom1 py-4">
+                  Fakultas Teknik
+                </h1>
+                <h3
+                  class="text-2xl sm:text-3xl md:text-4xl font-semibold font-sans tracking-wider capitalize text-black">
+                  Universitas Dr. Soetomo
+                </h3>
+                <h5
+                  class="text-lg sm:text-xl md:text-2xl font-medium font-sans text-black pt-8">
+                  Sarana sistem informasi laboratorium fakultas teknik
+                </h5>
+                <h5
+                  class="text-lg sm:text-xl md:text-2xl font-medium font-sans text-black">
+                  Jam Operasional Senin - Jum'at
+                </h5>
+                <h5
+                  class="text-lg sm:text-xl md:text-2xl font-bold font-sans text-black pt-12">
+                  Gedung B lantai 2 No. 202, Jl. Semolowaru no 84 Surabaya
+                  60118, Jawa Timur, Indonesia
+                </h5>
+              </div>
+
+              <div class="py-6"></div>
+
+              <!-- Lingkaran Biru -->
+              <div
+                id="container"
+                class="w-165px h-165px rounded-full bg-custom1 flex flex-col items-center relative">
+                <!-- Lingkaran dengan Tulisan dan Button -->
+                <div id="circle" class="relative">
+                  <svg
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    width="300px"
+                    height="300px"
+                    viewBox="0 0 300 300"
+                    enable-background="new 0 0 300 300"
+                    xml:space="preserve">
+                    <defs>
+                      <path
+                        id="circlePath"
+                        d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
+                    </defs>
+                    <circle cx="150" cy="100" r="75" fill="none" />
+                    <g>
+                      <use xlink:href="#circlePath" fill="none" />
+                      <text fill="#146C94" class="font-sans">
+                        <textPath xlink:href="#circlePath">
+                          Hubungi kami &nbsp; Hubungi kami &nbsp;Hubungi kami
+                          &nbsp; Hubungi kami
+                        </textPath>
+                      </text>
+                    </g>
+                  </svg>
+
+                  <div
+                    class="w-100px h-100px border-2 border-white rounded-full mx-116px my-8"></div>
+
+                  <!-- Button Lingkaran -->
+                  <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACTElEQVR4nO2avUodQRiGt4qmUAwkaqelhVamS8pgECJaarwGUbyLqIUhgZA2l2AUzR2IWOs5aqXREFFr84OPvDDFInPWs7szO7PiAwcOnLOz+/LOfvv9bJI88kABngFTwDKwATSAK+CP+ej7vvlN/5kEepIYADqAWeAH8J/86JhN4L3WSgIIeAosAqe44yewAHRWJWIcOMIfh8Bb39voI9XxTc67FtEH7FI9O0CvKxGDxu5QHOgayop4YcJoaI6A/qIiOgNtp6xtlj9EA1+Ij09FQmysjOUJs03i5bCth6Z5YpflFfAS+I0f5ttxw0XaMWrWG/Yk5iTzxjcJoAt08cOexcxkCVEW64pzYMSsOwSc4ZaNrHqiSCoeypl/QLdNiIoiH/h05p1NyAr+8OXMkk2ISlCf+HBmzSZEWaZvXDvTsAm5pBpcOnNuE6JOR1WknVEGUJTrBy3kkjBb61eZtRKLkGYNb/b9GMJvGScyw6/amHV7IH4ImaK4cCIzRempWdL415o0mpNt1cQJsW4VYU6ornhdCqvp+0pddcVjL3WPgScthZiTq7Vflteemw9zmSJSrsTQJm3FQdsdR80niJMb4E1bIlJiPhMfq7lEpLaYGsexsH3vDZ4h5nlEY4W+QiLuDHqqKINboax8oJSIlJjeQNtsW8MmJyIsw1BFjir46nX2rvmE563WyB1iS7ozb7riLtOOuVBvQEjQjKku1YvNi45ZVwJYOLS6RrUBMKE2JvDdvEBzkXqpRt/3VJ6qslNRBHQ5v5BHkji4BSSQTkwfkcb9AAAAAElFTkSuQmCC"
+                    alt=""
+                    class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-16 h-16 transition z-50"
+                    onclick="openModal('modal')" />
+                </div>
+
+                <!-- Modal -->
+                <div
+                  id="modal"
+                  class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 overflow-y-auto">
+                  <div
+                    class="relative mx-auto shadow-xl rounded-md bg-white max-w-xs w-full">
+                    <!-- Modal header -->
+                    <div
+                      class="flex justify-between items-center bg-[#146C94] text-white text-xl rounded-t-md px-4 py-2">
+                      <h3>Hubungi Kami</h3>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="max-h-[70vh] overflow-y-scroll p-4">
+                      <div class="flex justify-between">
+                        <p>Bu Ike</p>
+                        <a href="#">Link</a>
+                      </div>
+                      <div class="flex justify-between">
+                        <p>Pak Pamudi</p>
+                        <a href="#">Link</a>
+                      </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div
+                      class="px-4 py-2 border-t border-t-gray-500 flex justify-end items-center space-x-4">
+                      <button
+                        class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
+                        onclick="closeModal('modal')">
+                        Close (ESC)
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="self-start px-4">
+              <div class="justify-center mb-20 hidden lg:block">
+                <div
+                  class="w-[516px] h-[516px] rounded-full bg-custom2 opacity-25 pt-10 transform translate-x-4 -translate-y-4"></div>
+                <img
+                  src="../../public/img/sect-bg.png"
+                  alt=""
+                  class="mt-[-610px] w-[1552px] h-[625px] relative z-10 top-1/4" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section End -->
+
+      <!-- Content Start -->
+      <div class="py-12">
+        <div class="container px-4">
+          <h2
+            class="text-3xl text-black font-sans font-medium sm:text-xl md:text-xl lg:text-3xl">
+            Layanan Laboratorium
+          </h2>
+
+          <div class="flex mt-2 ml-4 lg:mt-8 lg:mr-10">
+            <div
+              class="panel active"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80);
+              ">
+              <h3>Explore The World</h3>
+            </div>
+
+            <div
+              class="panel"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1533130061792-64b345e4a833?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+              ">
+              <h3>Wild Forest</h3>
+            </div>
+
+            <div
+              class="panel"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+              ">
+              <h3>Sunny Beach</h3>
+            </div>
+          </div>
+          <div class="flex items-center">
+            <p
+              class="mb-6 mx-auto text-center text-2xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl text-black font-sans font-medium">
+              Lorem Ipsum dolor sit amet consectetur. Odio lorem egestas in
+              posuere ullamcorper quam aenean tincidunt.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Content End -->
+
+      <!-- Distance Start-->
+      <div class="py-16">
+        <div class="container px-4">
+          <div
+            class="flex flex-col sm:flex-row md:justify-between space-y-4 md:space-y-0 md:space-x-4 pb-8">
+            <h2 class="text-black text-xl md:text-3xl font-sans font-medium">
+              Informasi Pembayaran Praktikum
+            </h2>
+            <div class="flex space-x-2">
+              <h4 class="text-black text-xl md:text-3xl font-sans font-medium">
+                Semester :
+              </h4>
+              <button
+                id="dropdownDefaultButton"
+                data-dropdown-toggle="dropdown"
+                class="text-white bg-[#146C94] hover:bg-[#146C94] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-5 py-4 text-center inline-flex items-center dark:bg-[#146C94] dark:hover:bg-[#146C94] dark:focus:ring-blue-800 h-5"
+                type="button">
+                Ganjil
+                <svg
+                  class="w-2.5 h-2.5 ml-2.5"
+                  aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 10 6">
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="m1 1 4 4 4-4" />
+                </svg>
+              </button>
+              <!-- Dropdown menu -->
+              <div
+                id="dropdown"
+                class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                <ul
+                  class="py-2 text-sm text-gray-700 dark:text-gray-200"
+                  aria-labelledby="dropdownDefaultButton">
+                  <li>
+                    <a
+                      class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >Ganjil</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                      >Genap</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-4 flex justify-center items-center">
+            <div class="row g-0 pl-12 flex justify-center items-center">
+              <div class="col-md-3 border-right">
+                <div class="cards">
+                  <div
+                    class="first p-4 text-center items-center justify-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="100"
+                      height="100"
+                      viewBox="0,0,256,256"
+                      class="svg-icon">
+                      <g transform="scale(8.53333,8.53333)">
+                        <path
+                          d="M24.707,8.793l-6.5,-6.5c-0.188,-0.188 -0.442,-0.293 -0.707,-0.293h-10.5c-1.105,0 -2,0.895 -2,2v22c0,1.105 0.895,2 2,2h16c1.105,0 2,-0.895 2,-2v-16.5c0,-0.265 -0.105,-0.519 -0.293,-0.707zM18,21h-8c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1h8c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1zM20,17h-10c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1h10c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1zM18,10c-0.552,0 -1,-0.448 -1,-1v-5.096l6.096,6.096z"></path>
+                      </g>
+                    </svg>
+
+                    <h5 class="head1">Judul Pembayaran Praktikum</h5>
+
+                    <a class="line1" href="#">
+                      <div
+                        class="flex justify-center items-center gap-5 space-x-2">
+                        <p>Read More</p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="37"
+                          height="16"
+                          viewBox="0 0 37 16"
+                          fill="none"
+                          class="items-center w-5">
+                          <path
+                            d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM36.7071 8.70711C37.0976 8.31658 37.0976 7.68342 36.7071 7.29289L30.3431 0.928932C29.9526 0.538408 29.3195 0.538408 28.9289 0.928932C28.5384 1.31946 28.5384 1.95262 28.9289 2.34315L34.5858 8L28.9289 13.6569C28.5384 14.0474 28.5384 14.6805 28.9289 15.0711C29.3195 15.4616 29.9526 15.4616 30.3431 15.0711L36.7071 8.70711ZM1 9H36V7H1V9Z"
+                            fill="#146C94" />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 border-right">
+                <div class="cards">
+                  <div class="second p-4 text-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="100"
+                      height="100"
+                      viewBox="0,0,256,256"
+                      class="svg-icon">
+                      <g transform="scale(8.53333,8.53333)">
+                        <path
+                          d="M24.707,8.793l-6.5,-6.5c-0.188,-0.188 -0.442,-0.293 -0.707,-0.293h-10.5c-1.105,0 -2,0.895 -2,2v22c0,1.105 0.895,2 2,2h16c1.105,0 2,-0.895 2,-2v-16.5c0,-0.265 -0.105,-0.519 -0.293,-0.707zM18,21h-8c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1h8c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1zM20,17h-10c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1h10c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1zM18,10c-0.552,0 -1,-0.448 -1,-1v-5.096l6.096,6.096z"></path>
+                      </g>
+                    </svg>
+
+                    <h5 class="head1">Judul Pembayaran Praktikum</h5>
+
+                    <a class="line1" href="#">
+                      <div
+                        class="flex justify-center items-center gap-5 space-x-2">
+                        <p>Read More</p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="37"
+                          height="16"
+                          viewBox="0 0 37 16"
+                          fill="none"
+                          class="items-center w-5">
+                          <path
+                            d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM36.7071 8.70711C37.0976 8.31658 37.0976 7.68342 36.7071 7.29289L30.3431 0.928932C29.9526 0.538408 29.3195 0.538408 28.9289 0.928932C28.5384 1.31946 28.5384 1.95262 28.9289 2.34315L34.5858 8L28.9289 13.6569C28.5384 14.0474 28.5384 14.6805 28.9289 15.0711C29.3195 15.4616 29.9526 15.4616 30.3431 15.0711L36.7071 8.70711ZM1 9H36V7H1V9Z"
+                            fill="#146C94" />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 border-right">
+                <div class="cards">
+                  <div class="fourth p-4 text-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="100"
+                      height="100"
+                      viewBox="0,0,256,256"
+                      class="svg-icon">
+                      <g transform="scale(8.53333,8.53333)">
+                        <path
+                          d="M24.707,8.793l-6.5,-6.5c-0.188,-0.188 -0.442,-0.293 -0.707,-0.293h-10.5c-1.105,0 -2,0.895 -2,2v22c0,1.105 0.895,2 2,2h16c1.105,0 2,-0.895 2,-2v-16.5c0,-0.265 -0.105,-0.519 -0.293,-0.707zM18,21h-8c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1h8c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1zM20,17h-10c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1h10c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1zM18,10c-0.552,0 -1,-0.448 -1,-1v-5.096l6.096,6.096z"></path>
+                      </g>
+                    </svg>
+
+                    <h5 class="head1">Judul Pembayaran Praktikum</h5>
+
+                    <a class="line1" href="#">
+                      <div
+                        class="flex justify-center items-center gap-5 space-x-2">
+                        <p>Read More</p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="37"
+                          height="16"
+                          viewBox="0 0 37 16"
+                          fill="none"
+                          class="items-center w-5">
+                          <path
+                            d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM36.7071 8.70711C37.0976 8.31658 37.0976 7.68342 36.7071 7.29289L30.3431 0.928932C29.9526 0.538408 29.3195 0.538408 28.9289 0.928932C28.5384 1.31946 28.5384 1.95262 28.9289 2.34315L34.5858 8L28.9289 13.6569C28.5384 14.0474 28.5384 14.6805 28.9289 15.0711C29.3195 15.4616 29.9526 15.4616 30.3431 15.0711L36.7071 8.70711ZM1 9H36V7H1V9Z"
+                            fill="#146C94" />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="cards">
+                  <div class="third p-4 text-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      x="0px"
+                      y="0px"
+                      width="100"
+                      height="100"
+                      viewBox="0,0,256,256"
+                      class="svg-icon">
+                      <g transform="scale(8.53333,8.53333)">
+                        <path
+                          d="M24.707,8.793l-6.5,-6.5c-0.188,-0.188 -0.442,-0.293 -0.707,-0.293h-10.5c-1.105,0 -2,0.895 -2,2v22c0,1.105 0.895,2 2,2h16c1.105,0 2,-0.895 2,-2v-16.5c0,-0.265 -0.105,-0.519 -0.293,-0.707zM18,21h-8c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1h8c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1zM20,17h-10c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1h10c0.552,0 1,0.448 1,1c0,0.552 -0.448,1 -1,1zM18,10c-0.552,0 -1,-0.448 -1,-1v-5.096l6.096,6.096z"></path>
+                      </g>
+                    </svg>
+                    <h5 class="head1">Judul Pembayaran Praktikum</h5>
+
+                    <a class="line1" href="#">
+                      <div
+                        class="flex justify-center items-center gap-5 space-x-2">
+                        <p>Read More</p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="37"
+                          height="16"
+                          viewBox="0 0 37 16"
+                          fill="none"
+                          class="items-center w-5">
+                          <path
+                            d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM36.7071 8.70711C37.0976 8.31658 37.0976 7.68342 36.7071 7.29289L30.3431 0.928932C29.9526 0.538408 29.3195 0.538408 28.9289 0.928932C28.5384 1.31946 28.5384 1.95262 28.9289 2.34315L34.5858 8L28.9289 13.6569C28.5384 14.0474 28.5384 14.6805 28.9289 15.0711C29.3195 15.4616 29.9526 15.4616 30.3431 15.0711L36.7071 8.70711ZM1 9H36V7H1V9Z"
+                            fill="#146C94" />
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Distance End-->
+    </main>
+
+    <!-- Footer Start -->
+    <footer class="text-center">
+      <h5
+        class="font-sans text-lg md:text-base lg:text-lg font-normal text-black">
+        © Lab Fakultas Teknik Unitomo 2023
+      </h5>
+    </footer>
+
+    <script src="../js/homepage.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+    <script type="text/javascript">
+      window.openModal = function (modalId) {
+        document.getElementById(modalId).style.display = "block";
+        document
+          .getElementsByTagName("body")[0]
+          .classList.add("overflow-y-hidden");
+      };
+
+      window.closeModal = function (modalId) {
+        document.getElementById(modalId).style.display = "none";
+        document
+          .getElementsByTagName("body")[0]
+          .classList.remove("overflow-y-hidden");
+      };
+
+      // Close all modals when press ESC
+      document.onkeydown = function (event) {
+        event = event || window.event;
+        if (event.keyCode === 27) {
+          document
+            .getElementsByTagName("body")[0]
+            .classList.remove("overflow-y-hidden");
+          let modals = document.getElementsByClassName("modal");
+          Array.prototype.slice.call(modals).forEach((i) => {
+            i.style.display = "none";
+          });
+        }
+      };
+    </script>
+  </body>
+</html>

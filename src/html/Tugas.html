@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/style_out.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+      rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="py-4 px-6 bg-white">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center justify-between space-x-4">
+            <img
+              src="../../public/img/fakultas-teknik-1.png"
+              alt="Logo Fakultas Teknik"
+              class="w-16 h-16 mr-4" />
+            <div class="flex justify-between space-x-12">
+              <a href="#" class="font-sans font-semibold">Home</a>
+              <div class="flex justify-between space-x-1">
+                <a href="#" class="font-sans font-semibold">Praktikum</a>
+                <div class="rounded-full w-2 h-2 bg-[#19A7CE] mt-2"></div>
+              </div>
+              <a href="#" class="font-sans font-semibold">Kerja Praktek</a>
+              <a href="#" class="font-sans font-semibold">Aktivitas Lab</a>
+            </div>
+          </div>
+          <div class="flex items-center md:order-2">
+            <button
+              type="button"
+              class="flex mr-3 text-sm md:mr-0"
+              id="user-menu-button"
+              aria-expanded="false"
+              data-dropdown-toggle="user-dropdown"
+              data-dropdown-placement="bottom">
+              <span class="sr-only">Open user menu</span>
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADJElEQVR4nO1ZS08UQRCeAAeNmqgsbPfuKie9GS++Eg+gP8EY45/QK0JMuKBeJUo8EsCp2owvIh41ezEmJFM1QPYPKBxUxCtgTMbULhsOCNPbPTuLcb+kks0+qr+qrq7p+tbzOuigA3eMxV395fCKRh7VwK80UlUh/dTIv8Tqr6mqkV9q4JE8hJflN167UZxdKimgRwpoVSPHzZhCWlFID0tBVMyceGF6oVcjP1NAW80S3xUI0KZGmiwF1ZPZkC/TbYX8w5X47h3htTyEt1rHvFLpkaynTVzvtqeyVqrcS8Gnwxp4PgPy8fZuvJU102EfBN0K+XVW5HXDgOdT2YmMyib++wHnJ84Htl3k9U4QN+3ITy/02nYbBTSnfB7MzyweqRlGQ1LXdqVE30/7yycyLB0a3sfnaCalVKw/YbdsMp+YGItupoA2TwEVjAOQ64FVpnweTPKdL0fXLMvygRn7sbhLAX+xWaQvqB5Nct879/GYZQCr0tIT+W/fKuODFoBGjvN+dCkxANuDVlsAo6Ek/3kIr9v61/s0iJ0Aavd5uwWkVSYniN45BPDCYAdqg0fsYKN7+VZA9x19LycGoIDW07jHSLeRMyFWLxuXzHNjh9dMAnAeUlplCmjzvwhgvd1EtUsJpXCIW2nLqbZRhQTaD3OJTvdayw9zChjTbaPAI8YOHcg3oALuS/VBJqKTqcNURr5KTSww23GgC2aXOaQVE4f9z8NzrvyLZT5vRp4/G6t5opgZZQVo2jUAjTxrthaPGzsVua+umKVUl47nTSFvNDXQ1JwjTTbRjd4UfT5j6ruAi2flN9rc/4TtUL9m3CGAfyvg9xroji5HV/uCBTUwVTkkJq/lPQ18VyN/kO820Xm+WQ31AtEqzRdqjSmkG54LRKtsG3mgx54zgqDbZchpu7QoEKHVWpiyy/xceuJuA5VKjwhMGdT8hJH6YAvRKqUzpE+evjofWFNIW5PdMH/Y7Zdx3pCsD0xFx72sIU9HUcxshDC522jg8dxsqL22YyzuEtFJI9+TO7sMHjLZyXi6besKean+GQ2rMl88EH+zdtCB9+/jD8QVJ1JV40RNAAAAAElFTkSuQmCC"
+                alt="" />
+            </button>
+            <!-- Dropdown menu -->
+            <div
+              class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
+              id="user-dropdown">
+              <div class="px-4 py-3">
+                <span class="block text-sm text-gray-900 dark:text-white"
+                  >Mahasiswa
+                </span>
+                <span
+                  class="block text-sm text-gray-500 truncate dark:text-gray-400"
+                  >Nim</span
+                >
+              </div>
+              <ul class="py-2" aria-labelledby="user-menu-button">
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >Settings</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >Sign out</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Body Start -->
+    <div class="py-12 px-10">
+      <div class="container"></div>
+      <h3 class="font-sans font-semibold text-2xl pb-12">
+        Tugas Praktikum Pemograman Dasar
+      </h3>
+      <div class="flex justify-evenly">
+        <div
+          class="bg-transparent rounded-[10px] w-full h-[100px] flex justify-between items-center">
+          <div class="flex flex-row space-x-6">
+            <div
+              class="bg-[#25D0FF] w-[64px] h-[64px] flex justify-center items-center">
+              <h2 class="font-sans font-medium text-3xl text-white">1</h2>
+            </div>
+            <div class="flex flex-col">
+              <h4 class="pb-12 font-sans font-medium text-2xl text-[#00354D]">
+                Tugas 1 Identifikasi Tipe Data Java
+              </h4>
+              <p
+                class="font-sans font-normal text-lg text-black opacity-[0.56]">
+                16 Maret 2023
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-between space-x-4">
+            <button
+              class="bg-[#26D0FF] w-[178px] h-[48px] flex justify-center items-center">
+              <h4 class="font-sans font-semibold text-xl text-[#00354C]">
+                Unduh Tugas
+              </h4>
+            </button>
+            <button
+              data-modal-target="defaultModal"
+              data-modal-toggle="defaultModal"
+              class="bg-[#8CE6FF] w-[178px] h-[48px] flex justify-center items-center">
+              <h4 class="font-sans font-semibold text-xl text-[#00354C]">
+                Berhasil Submit
+              </h4>
+            </button>
+
+            <!-- Main modal -->
+            <div
+              id="defaultModal"
+              tabindex="-1"
+              aria-hidden="true"
+              class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+              <div class="relative w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
+                    <h3
+                      class="text-xl font-semibold text-gray-900 dark:text-white">
+                      Form Pengumpulan Tugas
+                    </h3>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="p-6 space-y-6">
+                    <div class="flex flex-row justify-between">
+                      <h4
+                        class="flex items-center font-sans font-normal text-xl">
+                        Mata Kuliah
+                      </h4>
+                      <div
+                        class="bg-[#A9E3FF] w-[500px] h-[53px] rounded-[5px] flex items-center px-4">
+                        <h4 class="font-sans font-semibold text-xl">
+                          Praktikum Pemograman Dasar
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                      <h4
+                        class="flex items-center font-sans font-normal text-xl">
+                        Pertemuan ke
+                      </h4>
+                      <div
+                        class="bg-[#A9E3FF] w-[500px] h-[53px] rounded-[5px] flex items-center px-4">
+                        <h4 class="font-sans font-semibold text-xl">4</h4>
+                      </div>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                      <h4
+                        class="flex items-start font-sans font-normal text-xl py-2">
+                        Unggah File
+                      </h4>
+                      <div class="flex flex-col">
+                        <div class="flex flex-row">
+                          <div
+                            class="bg-[#F6F1F1] w-[350px] h-[53px] rounded-[5px] flex items-center px-4 font-sans font-semibold text-lg opacity-40">
+                            <h4>Unggah</h4>
+                          </div>
+                          <button
+                            class="bg-[#A9E3FF] w-[152px] h-[53px] rounded-[5px] flex justify-center items-center">
+                            <h4 class="font-sans font-normal text-xl">
+                              Browse
+                            </h4>
+                          </button>
+                        </div>
+
+                        <h6
+                          class="text-[#FF0000] font-sans font-normal text-xl">
+                          *File hanya berupa document dengan kapasitas 50Mb
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                  <div
+                    class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                    <button
+                      id=""
+                      data-modal-hide="defaultModal"
+                      type="button"
+                      class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      Submit
+                    </button>
+                    <button
+                      id=""
+                      data-modal-hide="defaultModal"
+                      type="button"
+                      class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-6 pb-10">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1280"
+          height="4"
+          viewBox="0 0 1261 4"
+          fill="none">
+          <path
+            d="M2 2L1259 2.00011"
+            stroke="#146C94"
+            stroke-width="3"
+            stroke-linecap="round" />
+        </svg>
+      </div>
+      <!-- 2 -->
+      <div class="flex justify-evenly">
+        <div
+          class="bg-transparent rounded-[10px] w-full h-[100px] flex justify-between items-center">
+          <div class="flex flex-row space-x-6">
+            <div
+              class="bg-[#25D0FF] w-[64px] h-[64px] flex justify-center items-center">
+              <h2 class="font-sans font-medium text-3xl text-white">2</h2>
+            </div>
+            <div class="flex flex-col">
+              <h4 class="pb-12 font-sans font-medium text-2xl text-[#00354D]">
+                Tugas 2 Operator Aritmatika Java
+              </h4>
+              <p
+                class="font-sans font-normal text-lg text-black opacity-[0.56]">
+                17 Maret 2023
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-between space-x-4">
+            <button
+              class="bg-[#26D0FF] w-[178px] h-[48px] flex justify-center items-center">
+              <h4 class="font-sans font-semibold text-xl text-[#00354C]">
+                Unduh Tugas
+              </h4>
+            </button>
+            <button
+              data-modal-target="defaultModal"
+              data-modal-toggle="defaultModal"
+              class="bg-[#8CE6FF] w-[178px] h-[48px] flex justify-center items-center">
+              <h4 class="font-sans font-semibold text-xl text-[#00354C]">
+                Berhasil Submit
+              </h4>
+            </button>
+
+            <!-- Main modal -->
+            <div
+              id="defaultModal"
+              tabindex="-1"
+              aria-hidden="true"
+              class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+              <div class="relative w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
+                    <h3
+                      class="text-xl font-semibold text-gray-900 dark:text-white">
+                      Form Pengumpulan Tugas
+                    </h3>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="p-6 space-y-6">
+                    <div class="flex flex-row justify-between">
+                      <h4
+                        class="flex items-center font-sans font-normal text-xl">
+                        Mata Kuliah
+                      </h4>
+                      <div
+                        class="bg-[#A9E3FF] w-[500px] h-[53px] rounded-[5px] flex items-center px-4">
+                        <h4 class="font-sans font-semibold text-xl">
+                          Praktikum Pemograman Dasar
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                      <h4
+                        class="flex items-center font-sans font-normal text-xl">
+                        Pertemuan ke
+                      </h4>
+                      <div
+                        class="bg-[#A9E3FF] w-[500px] h-[53px] rounded-[5px] flex items-center px-4">
+                        <h4 class="font-sans font-semibold text-xl">4</h4>
+                      </div>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                      <h4
+                        class="flex items-start font-sans font-normal text-xl py-2">
+                        Unggah File
+                      </h4>
+                      <div class="flex flex-col">
+                        <div class="flex flex-row">
+                          <div
+                            class="bg-[#F6F1F1] w-[350px] h-[53px] rounded-[5px] flex items-center px-4 font-sans font-semibold text-lg opacity-40">
+                            <h4>Unggah</h4>
+                          </div>
+                          <button
+                            class="bg-[#A9E3FF] w-[152px] h-[53px] rounded-[5px] flex justify-center items-center">
+                            <h4 class="font-sans font-normal text-xl">
+                              Browse
+                            </h4>
+                          </button>
+                        </div>
+
+                        <h6
+                          class="text-[#FF0000] font-sans font-normal text-xl">
+                          *File hanya berupa document dengan kapasitas 50Mb
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                  <div
+                    class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                    <button
+                      id=""
+                      data-modal-hide="defaultModal"
+                      type="button"
+                      class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      Submit
+                    </button>
+                    <button
+                      id=""
+                      data-modal-hide="defaultModal"
+                      type="button"
+                      class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-6 pb-10">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1280"
+          height="4"
+          viewBox="0 0 1261 4"
+          fill="none">
+          <path
+            d="M2 2L1259 2.00011"
+            stroke="#146C94"
+            stroke-width="3"
+            stroke-linecap="round" />
+        </svg>
+      </div>
+      <!-- 3 -->
+      <div class="flex justify-evenly">
+        <div
+          class="bg-transparent rounded-[10px] w-full h-[100px] flex justify-between items-center">
+          <div class="flex flex-row space-x-6">
+            <div
+              class="bg-[#D9D9D9] w-[64px] h-[64px] flex justify-center items-center">
+              <h2 class="font-sans font-medium text-3xl text-white">3</h2>
+            </div>
+            <div class="flex flex-col">
+              <h4 class="pb-12 font-sans font-medium text-2xl text-[#00354D]">
+                Tugas 3 Operator Relasi dan Logika Java
+              </h4>
+              <p
+                class="font-sans font-normal text-lg text-black opacity-[0.56]">
+                17 Maret 2023
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-between space-x-4">
+            <button
+              class="bg-[#26D0FF] w-[178px] h-[48px] flex justify-center items-center">
+              <h4 class="font-sans font-semibold text-xl text-[#00354C]">
+                Unduh Tugas
+              </h4>
+            </button>
+            <button
+              data-modal-target="defaultModal"
+              data-modal-toggle="defaultModal"
+              class="bg-[#D9D9D9] w-[178px] h-[48px] flex justify-center items-center">
+              <h4 class="font-sans font-semibold text-xl text-[#00354C]">
+                Belum Submit
+              </h4>
+            </button>
+
+            <!-- Main modal -->
+            <div
+              id="defaultModal"
+              tabindex="-1"
+              aria-hidden="true"
+              class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
+              <div class="relative w-full max-w-2xl max-h-full">
+                <!-- Modal content -->
+                <div
+                  class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                  <!-- Modal header -->
+                  <div
+                    class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
+                    <h3
+                      class="text-xl font-semibold text-gray-900 dark:text-white">
+                      Form Pengumpulan Tugas
+                    </h3>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="p-6 space-y-6">
+                    <div class="flex flex-row justify-between">
+                      <h4
+                        class="flex items-center font-sans font-normal text-xl">
+                        Mata Kuliah
+                      </h4>
+                      <div
+                        class="bg-[#A9E3FF] w-[500px] h-[53px] rounded-[5px] flex items-center px-4">
+                        <h4 class="font-sans font-semibold text-xl">
+                          Praktikum Pemograman Dasar
+                        </h4>
+                      </div>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                      <h4
+                        class="flex items-center font-sans font-normal text-xl">
+                        Pertemuan ke
+                      </h4>
+                      <div
+                        class="bg-[#A9E3FF] w-[500px] h-[53px] rounded-[5px] flex items-center px-4">
+                        <h4 class="font-sans font-semibold text-xl">4</h4>
+                      </div>
+                    </div>
+                    <div class="flex flex-row justify-between">
+                      <h4
+                        class="flex items-start font-sans font-normal text-xl py-2">
+                        Unggah File
+                      </h4>
+                      <div class="flex flex-col">
+                        <div class="flex flex-row">
+                          <div
+                            class="bg-[#F6F1F1] w-[350px] h-[53px] rounded-[5px] flex items-center px-4 font-sans font-semibold text-lg opacity-40">
+                            <h4>Unggah</h4>
+                          </div>
+                          <button
+                            class="bg-[#A9E3FF] w-[152px] h-[53px] rounded-[5px] flex justify-center items-center">
+                            <h4 class="font-sans font-normal text-xl">
+                              Browse
+                            </h4>
+                          </button>
+                        </div>
+
+                        <h6
+                          class="text-[#FF0000] font-sans font-normal text-xl">
+                          *File hanya berupa document dengan kapasitas 50Mb
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal footer -->
+                  <div
+                    class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                    <button
+                      id=""
+                      data-modal-hide="defaultModal"
+                      type="button"
+                      class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                      Submit
+                    </button>
+                    <button
+                      id=""
+                      data-modal-hide="defaultModal"
+                      type="button"
+                      class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pt-6 pb-10">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="1280"
+          height="4"
+          viewBox="0 0 1261 4"
+          fill="none">
+          <path
+            d="M2 2L1259 2.00011"
+            stroke="#146C94"
+            stroke-width="3"
+            stroke-linecap="round" />
+        </svg>
+      </div>
+    </div>
+    <!-- Body End -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  </body>
+</html>

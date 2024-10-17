@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/style_out.css" rel="stylesheet" />
+    <title>
+      Masuk Akun | Laboratorium Fakultas TekniK Universitas Dr. Soetomo Surabaya
+    </title>
+  </head>
+  <body
+    class="h-screen w-screen overflow-hidden flex items-center justify-center">
+    <div class="h-screen w-screen container lg:flex">
+      <!-- Gambar hanya ditampilkan di desktop -->
+      <div class="relative overflow-hidden hidden lg:block lg:w-1/2">
+        <img
+          src="../../public/img/bg-login.png"
+          alt="bg-login"
+          class="h-screen" />
+      </div>
+      <!-- Form -->
+      <div
+        class="flex w-full lg:w-1/2 md:h-full justify-center py-0 items-center bg-custom3 rounded-l-3xl lg:py-10">
+        <form class="w-[90%]">
+          <!-- Logo hanya ditampilkan di desktop -->
+          <img
+            src="../../public/img/fakultas-teknik-1.png"
+            alt="logo-ft"
+            class="h-20 w-20 mx-auto mb-4 pb-2" />
+          <h1
+            class="text-3xl font-sans font-medium tracking-normal text-center">
+            Aplikasi Lab Teknik Informatika
+          </h1>
+          <h2
+            class="text-2xl font-sans font-medium tracking-normal text-center pt-2 pb-6">
+            Universitas Dr. Soetomo Surabaya
+          </h2>
+          <div class="pb-2 pt-0 lg:pt-4">
+            <label for="username" class="text-lg font-sans font-medium px-2"
+              >Username</label
+            >
+            <input
+              type="username"
+              name="username"
+              id="username"
+              class="block w-full p-3 md:p-4 text-base md:text-lg rounded-sm h-10" />
+          </div>
+          <div class="pb-2 pt-4">
+            <label for="password" class="text-lg font-sans font-medium px-2"
+              >Password</label
+            >
+            <input
+              class="block w-full p-3 md:p-4 text-base md:text-lg rounded-sm h-10"
+              type="password"
+              name="password"
+              id="password" />
+          </div>
+          <div
+            class="text-right text-[#0073A1] text-[10px] md:text-lg font-sans font-medium">
+            <a href="#">Lupa Password?</a>
+          </div>
+          <div class="pb-2 pt-4">
+            <button
+              class="block w-full h-10 text-lg rounded-lg bg-[#19A7CE] hover:bg-[#146C94] focus:outline-none text-white font-semibold">
+              Masuk
+            </button>
+          </div>
+          <div class="pb-2 pt-4">
+            <button
+              class="block w-full h-10 text-lg rounded-lg bg-[#146C94] hover:bg-[#19A7CE] focus:outline-none text-white font-semibold">
+              <a href="../html/Sign Up.html">Daftar</a>
+            </button>
+          </div>
+          <div
+            class="p-4 text-center right-0 left-0 flex justify-between space-x-6 text-xs md:text-sm lg:text-base">
+            <div class="flex items-center">
+              <img src="../../public/img/google-docs.png" alt="google-docs" />
+              <a href="#" class="font-sans font-medium"
+                >Unduh Panduan Pengajar</a
+              >
+            </div>
+            <div class="flex items-center">
+              <img src="../../public/img/google-docs.png" alt="google-docs" />
+              <a href="#" class="font-sans font-medium"
+                >Unduh Panduan Mahasiswa</a
+              >
+            </div>
+          </div>
+          <div class="text-center">
+            <h5
+              class="font-sans text-sm md:text-base font-normal text-black opacity-50">
+              © Lab Teknik Informatika Unitomo 2023
+            </h5>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

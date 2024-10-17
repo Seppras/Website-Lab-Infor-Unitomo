@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../css/style_out.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="py-4 px-6 bg-white">
+      <div class="container">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center justify-between space-x-4">
+            <img
+              src="../../public/img/fakultas-teknik-1.png"
+              alt="Logo Fakultas Teknik"
+              class="w-16 h-16 mr-4" />
+            <div class="flex justify-between space-x-12">
+              <a href="#" class="font-sans font-semibold">Home</a>
+              <div class="flex justify-between space-x-1">
+                <a href="#" class="font-sans font-semibold">Praktikum</a>
+                <div class="rounded-full w-2 h-2 bg-[#19A7CE] mt-2"></div>
+              </div>
+              <a href="#" class="font-sans font-semibold">Kerja Praktek</a>
+              <a href="#" class="font-sans font-semibold">Aktivitas Lab</a>
+            </div>
+          </div>
+          <div class="flex items-center md:order-2">
+            <button
+              type="button"
+              class="flex mr-3 text-sm md:mr-0"
+              id="user-menu-button"
+              aria-expanded="false"
+              data-dropdown-toggle="user-dropdown"
+              data-dropdown-placement="bottom">
+              <span class="sr-only">Open user menu</span>
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAADJElEQVR4nO1ZS08UQRCeAAeNmqgsbPfuKie9GS++Eg+gP8EY45/QK0JMuKBeJUo8EsCp2owvIh41ezEmJFM1QPYPKBxUxCtgTMbULhsOCNPbPTuLcb+kks0+qr+qrq7p+tbzOuigA3eMxV395fCKRh7VwK80UlUh/dTIv8Tqr6mqkV9q4JE8hJflN167UZxdKimgRwpoVSPHzZhCWlFID0tBVMyceGF6oVcjP1NAW80S3xUI0KZGmiwF1ZPZkC/TbYX8w5X47h3htTyEt1rHvFLpkaynTVzvtqeyVqrcS8Gnwxp4PgPy8fZuvJU102EfBN0K+XVW5HXDgOdT2YmMyib++wHnJ84Htl3k9U4QN+3ITy/02nYbBTSnfB7MzyweqRlGQ1LXdqVE30/7yycyLB0a3sfnaCalVKw/YbdsMp+YGItupoA2TwEVjAOQ64FVpnweTPKdL0fXLMvygRn7sbhLAX+xWaQvqB5Nct879/GYZQCr0tIT+W/fKuODFoBGjvN+dCkxANuDVlsAo6Ek/3kIr9v61/s0iJ0Aavd5uwWkVSYniN45BPDCYAdqg0fsYKN7+VZA9x19LycGoIDW07jHSLeRMyFWLxuXzHNjh9dMAnAeUlplCmjzvwhgvd1EtUsJpXCIW2nLqbZRhQTaD3OJTvdayw9zChjTbaPAI8YOHcg3oALuS/VBJqKTqcNURr5KTSww23GgC2aXOaQVE4f9z8NzrvyLZT5vRp4/G6t5opgZZQVo2jUAjTxrthaPGzsVua+umKVUl47nTSFvNDXQ1JwjTTbRjd4UfT5j6ruAi2flN9rc/4TtUL9m3CGAfyvg9xroji5HV/uCBTUwVTkkJq/lPQ18VyN/kO820Xm+WQ31AtEqzRdqjSmkG54LRKtsG3mgx54zgqDbZchpu7QoEKHVWpiyy/xceuJuA5VKjwhMGdT8hJH6YAvRKqUzpE+evjofWFNIW5PdMH/Y7Zdx3pCsD0xFx72sIU9HUcxshDC522jg8dxsqL22YyzuEtFJI9+TO7sMHjLZyXi6besKean+GQ2rMl88EH+zdtCB9+/jD8QVJ1JV40RNAAAAAElFTkSuQmCC"
+                alt="" />
+            </button>
+            <!-- Dropdown menu -->
+            <div
+              class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600"
+              id="user-dropdown">
+              <div class="px-4 py-3">
+                <span class="block text-sm text-gray-900 dark:text-white"
+                  >Mahasiswa
+                </span>
+                <span
+                  class="block text-sm text-gray-500 truncate dark:text-gray-400"
+                  >Nim</span
+                >
+              </div>
+              <ul class="py-2" aria-labelledby="user-menu-button">
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >Settings</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white"
+                    >Sign out</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Body Start -->
+    <div class="py-12 px-10">
+      <div class="container"></div>
+      <h3 class="font-sans font-semibold text-2xl pb-12">
+        Materi Praktikum Pemograman Dasar
+      </h3>
+      <div class="flex flex-row flex-wrap justify-between">
+        <article class="inline-block align-top">
+          <div class="bg-[#146C94] w-[384px] h-[368px] rounded-[10px]">
+            <p class="font-sans font-medium text-xl text-white px-10 py-4">
+              Materi 1
+            </p>
+            <h2
+              class="font-sans font-bold text-4xl text-white pl-10 pr-8 py-6 rounded h-32">
+              Mengidentifikasi Tipe Data Java
+            </h2>
+            <p
+              class="font-sans font-normal text-base text-white text-right px-6 py-8">
+              Sabtu, 19 Maret 2023
+            </p>
+            <div class="bg-white w-[383px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="387"
+                height="4"
+                viewBox="0 0 387 4"
+                fill="none">
+                <path
+                  d="M2 2H385"
+                  stroke="white"
+                  stroke-width="3"
+                  stroke-linecap="round" />
+              </svg>
+            </div>
+            <a href="" class="flex justify-start">
+              <svg
+                fill="#FFFFFF"
+                width="40px"
+                height="40px"
+                viewBox="0 0 1920 1920"
+                xmlns="http://www.w3.org/2000/svg"
+                class="block my-6 mx-6">
+                <g fill-rule="evenodd">
+                  <path
+                    d="M1251.654 0c44.499 0 88.207 18.07 119.718 49.581l329.223 329.224c31.963 31.962 49.581 74.54 49.581 119.717V1920H169V0Zm-66.183 112.941H281.94V1807.06h1355.294V564.706H1185.47V112.94Zm112.94 23.379v315.445h315.445L1298.412 136.32Z" />
+                  <path
+                    d="M900.497 677.67c26.767 0 50.372 12.65 67.991 37.835 41.901 59.068 38.965 121.976 23.492 206.682-5.308 29.14.113 58.617 16.263 83.125 22.814 34.786 55.68 82.673 87.981 123.219 23.718 29.93 60.198 45.854 97.13 40.885 23.718-3.276 52.292-5.986 81.656-5.986 131.012 0 121.186 46.757 133.045 89.675 6.55 25.976 3.275 48.678-10.165 65.506-16.715 22.701-51.162 34.447-101.534 34.447-55.793 0-74.202-9.487-122.767-24.96-27.445-8.81-55.906-10.617-83.69-3.275-55.453 14.456-146.936 36.48-223.284 46.983-40.772 5.647-77.816 26.654-102.438 60.875-55.454 76.8-106.842 148.518-188.273 148.518-21.007 0-40.32-7.567-56.244-22.701-23.492-23.492-33.544-49.581-28.574-79.85 13.778-92.95 128.075-144.79 196.066-182.625 16.037-8.923 28.687-22.589 36.592-39.53l107.86-233.223c7.68-16.377 10.051-34.56 7.228-52.518-12.537-79.059-31.06-211.99 18.748-272.075 10.955-13.44 26.09-21.007 42.917-21.007Zm20.556 339.953c-43.257 126.607-119.718 264.282-129.996 280.32 92.273-43.37 275.916-65.28 275.916-65.28-92.386-88.998-145.92-215.04-145.92-215.04Z" />
+                </g>
+              </svg>
+              <p class="my-8 font-sans font-semibold text-xl text-white">
+                Unduh Materi
+              </p>
+            </a>
+          </div>
+        </article>
+        <article class="inline-block align-top">
+          <div class="bg-[#146C94] w-[384px] h-[368px] rounded-[10px]">
+            <p class="font-sans font-medium text-xl text-white px-10 py-4">
+              Materi 2
+            </p>
+            <h2
+              class="font-sans font-bold text-4xl text-white pl-10 pr-8 py-6 rounded h-32">
+              Operator Aritmatika Java
+            </h2>
+            <p
+              class="font-sans font-normal text-base text-white text-right px-6 py-8">
+              Sabtu, 19 Maret 2023
+            </p>
+            <div class="bg-white w-[383px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="387"
+                height="4"
+                viewBox="0 0 387 4"
+                fill="none">
+                <path
+                  d="M2 2H385"
+                  stroke="white"
+                  stroke-width="3"
+                  stroke-linecap="round" />
+              </svg>
+            </div>
+            <a href="" class="flex justify-start">
+              <svg
+                fill="#FFFFFF"
+                width="40px"
+                height="40px"
+                viewBox="0 0 1920 1920"
+                xmlns="http://www.w3.org/2000/svg"
+                class="block my-6 mx-6">
+                <g fill-rule="evenodd">
+                  <path
+                    d="M1251.654 0c44.499 0 88.207 18.07 119.718 49.581l329.223 329.224c31.963 31.962 49.581 74.54 49.581 119.717V1920H169V0Zm-66.183 112.941H281.94V1807.06h1355.294V564.706H1185.47V112.94Zm112.94 23.379v315.445h315.445L1298.412 136.32Z" />
+                  <path
+                    d="M900.497 677.67c26.767 0 50.372 12.65 67.991 37.835 41.901 59.068 38.965 121.976 23.492 206.682-5.308 29.14.113 58.617 16.263 83.125 22.814 34.786 55.68 82.673 87.981 123.219 23.718 29.93 60.198 45.854 97.13 40.885 23.718-3.276 52.292-5.986 81.656-5.986 131.012 0 121.186 46.757 133.045 89.675 6.55 25.976 3.275 48.678-10.165 65.506-16.715 22.701-51.162 34.447-101.534 34.447-55.793 0-74.202-9.487-122.767-24.96-27.445-8.81-55.906-10.617-83.69-3.275-55.453 14.456-146.936 36.48-223.284 46.983-40.772 5.647-77.816 26.654-102.438 60.875-55.454 76.8-106.842 148.518-188.273 148.518-21.007 0-40.32-7.567-56.244-22.701-23.492-23.492-33.544-49.581-28.574-79.85 13.778-92.95 128.075-144.79 196.066-182.625 16.037-8.923 28.687-22.589 36.592-39.53l107.86-233.223c7.68-16.377 10.051-34.56 7.228-52.518-12.537-79.059-31.06-211.99 18.748-272.075 10.955-13.44 26.09-21.007 42.917-21.007Zm20.556 339.953c-43.257 126.607-119.718 264.282-129.996 280.32 92.273-43.37 275.916-65.28 275.916-65.28-92.386-88.998-145.92-215.04-145.92-215.04Z" />
+                </g>
+              </svg>
+              <p class="my-8 font-sans font-semibold text-xl text-white">
+                Unduh Materi
+              </p>
+            </a>
+          </div>
+        </article>
+        <article class="inline-block align-top">
+          <div class="bg-[#146C94] w-[384px] h-[368px] rounded-[10px]">
+            <p class="font-sans font-medium text-xl text-white px-10 py-4">
+              Materi 3
+            </p>
+            <h2
+              class="font-sans font-bold text-4xl text-white pl-10 pr-8 py-6 rounded h-32">
+              Inputan User Java
+            </h2>
+            <p
+              class="font-sans font-normal text-base text-white text-right px-6 py-8">
+              Sabtu, 19 Maret 2023
+            </p>
+            <div class="bg-white w-[383px] block">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="387"
+                height="4"
+                viewBox="0 0 387 4"
+                fill="none">
+                <path
+                  d="M2 2H385"
+                  stroke="white"
+                  stroke-width="3"
+                  stroke-linecap="round" />
+              </svg>
+            </div>
+            <a href="" class="flex justify-start">
+              <svg
+                fill="#FFFFFF"
+                width="40px"
+                height="40px"
+                viewBox="0 0 1920 1920"
+                xmlns="http://www.w3.org/2000/svg"
+                class="block my-6 mx-6">
+                <g fill-rule="evenodd">
+                  <path
+                    d="M1251.654 0c44.499 0 88.207 18.07 119.718 49.581l329.223 329.224c31.963 31.962 49.581 74.54 49.581 119.717V1920H169V0Zm-66.183 112.941H281.94V1807.06h1355.294V564.706H1185.47V112.94Zm112.94 23.379v315.445h315.445L1298.412 136.32Z" />
+                  <path
+                    d="M900.497 677.67c26.767 0 50.372 12.65 67.991 37.835 41.901 59.068 38.965 121.976 23.492 206.682-5.308 29.14.113 58.617 16.263 83.125 22.814 34.786 55.68 82.673 87.981 123.219 23.718 29.93 60.198 45.854 97.13 40.885 23.718-3.276 52.292-5.986 81.656-5.986 131.012 0 121.186 46.757 133.045 89.675 6.55 25.976 3.275 48.678-10.165 65.506-16.715 22.701-51.162 34.447-101.534 34.447-55.793 0-74.202-9.487-122.767-24.96-27.445-8.81-55.906-10.617-83.69-3.275-55.453 14.456-146.936 36.48-223.284 46.983-40.772 5.647-77.816 26.654-102.438 60.875-55.454 76.8-106.842 148.518-188.273 148.518-21.007 0-40.32-7.567-56.244-22.701-23.492-23.492-33.544-49.581-28.574-79.85 13.778-92.95 128.075-144.79 196.066-182.625 16.037-8.923 28.687-22.589 36.592-39.53l107.86-233.223c7.68-16.377 10.051-34.56 7.228-52.518-12.537-79.059-31.06-211.99 18.748-272.075 10.955-13.44 26.09-21.007 42.917-21.007Zm20.556 339.953c-43.257 126.607-119.718 264.282-129.996 280.32 92.273-43.37 275.916-65.28 275.916-65.28-92.386-88.998-145.92-215.04-145.92-215.04Z" />
+                </g>
+              </svg>
+              <p class="my-8 font-sans font-semibold text-xl text-white">
+                Unduh Materi
+              </p>
+            </a>
+          </div>
+        </article>
+        <article class="inline-block align-top mt-14">
+          <div class="bg-[#146C94] w-[384px] h-[368px] rounded-[10px]">
+            <p class="font-sans font-medium text-xl text-white px-10 py-4">
+              Materi 4
+            </p>
+            <h2
+              class="font-sans font-bold text-4xl text-white pl-10 pr-8 py-6 rounded h-32">
+              Operator Relasi dan Logika Java
+            </h2>
+            <p
+              class="font-sans font-normal text-base text-white text-right px-6 py-8">
+              Sabtu, 19 Maret 2023
+            </p>
+            <div class="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="387"
+                height="4"
+                viewBox="0 0 387 4"
+                fill="none"
+                class="bg-white w-[383px]">
+                <path
+                  d="M2 2H385"
+                  stroke="white"
+                  stroke-width="3"
+                  stroke-linecap="round" />
+              </svg>
+            </div>
+            <a href="" class="flex justify-start">
+              <svg
+                fill="#FFFFFF"
+                width="40px"
+                height="40px"
+                viewBox="0 0 1920 1920"
+                xmlns="http://www.w3.org/2000/svg"
+                class="block my-6 mx-6">
+                <g fill-rule="evenodd">
+                  <path
+                    d="M1251.654 0c44.499 0 88.207 18.07 119.718 49.581l329.223 329.224c31.963 31.962 49.581 74.54 49.581 119.717V1920H169V0Zm-66.183 112.941H281.94V1807.06h1355.294V564.706H1185.47V112.94Zm112.94 23.379v315.445h315.445L1298.412 136.32Z" />
+                  <path
+                    d="M900.497 677.67c26.767 0 50.372 12.65 67.991 37.835 41.901 59.068 38.965 121.976 23.492 206.682-5.308 29.14.113 58.617 16.263 83.125 22.814 34.786 55.68 82.673 87.981 123.219 23.718 29.93 60.198 45.854 97.13 40.885 23.718-3.276 52.292-5.986 81.656-5.986 131.012 0 121.186 46.757 133.045 89.675 6.55 25.976 3.275 48.678-10.165 65.506-16.715 22.701-51.162 34.447-101.534 34.447-55.793 0-74.202-9.487-122.767-24.96-27.445-8.81-55.906-10.617-83.69-3.275-55.453 14.456-146.936 36.48-223.284 46.983-40.772 5.647-77.816 26.654-102.438 60.875-55.454 76.8-106.842 148.518-188.273 148.518-21.007 0-40.32-7.567-56.244-22.701-23.492-23.492-33.544-49.581-28.574-79.85 13.778-92.95 128.075-144.79 196.066-182.625 16.037-8.923 28.687-22.589 36.592-39.53l107.86-233.223c7.68-16.377 10.051-34.56 7.228-52.518-12.537-79.059-31.06-211.99 18.748-272.075 10.955-13.44 26.09-21.007 42.917-21.007Zm20.556 339.953c-43.257 126.607-119.718 264.282-129.996 280.32 92.273-43.37 275.916-65.28 275.916-65.28-92.386-88.998-145.92-215.04-145.92-215.04Z" />
+                </g>
+              </svg>
+              <p class="my-8 font-sans font-semibold text-xl text-white">
+                Unduh Materi
+              </p>
+            </a>
+          </div>
+        </article>
+        <article class="inline-block align-top mt-14">
+          <div class="bg-[#146C94] w-[384px] h-[368px] rounded-[10px]">
+            <p class="font-sans font-medium text-xl text-white px-10 py-4">
+              Materi 5
+            </p>
+            <h2
+              class="font-sans font-bold text-4xl text-white pl-10 pr-8 py-6 rounded h-32">
+              Statement Kontrol (Decision)
+            </h2>
+            <p
+              class="font-sans font-normal text-base text-white text-right px-6 py-8">
+              Sabtu, 19 Maret 2023
+            </p>
+            <div class="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="387"
+                height="4"
+                viewBox="0 0 387 4"
+                fill="none"
+                class="bg-white w-[383px]">
+                <path
+                  d="M2 2H385"
+                  stroke="white"
+                  stroke-width="3"
+                  stroke-linecap="round" />
+              </svg>
+            </div>
+            <a href="" class="flex justify-start">
+              <svg
+                fill="#FFFFFF"
+                width="40px"
+                height="40px"
+                viewBox="0 0 1920 1920"
+                xmlns="http://www.w3.org/2000/svg"
+                class="block my-6 mx-6">
+                <g fill-rule="evenodd">
+                  <path
+                    d="M1251.654 0c44.499 0 88.207 18.07 119.718 49.581l329.223 329.224c31.963 31.962 49.581 74.54 49.581 119.717V1920H169V0Zm-66.183 112.941H281.94V1807.06h1355.294V564.706H1185.47V112.94Zm112.94 23.379v315.445h315.445L1298.412 136.32Z" />
+                  <path
+                    d="M900.497 677.67c26.767 0 50.372 12.65 67.991 37.835 41.901 59.068 38.965 121.976 23.492 206.682-5.308 29.14.113 58.617 16.263 83.125 22.814 34.786 55.68 82.673 87.981 123.219 23.718 29.93 60.198 45.854 97.13 40.885 23.718-3.276 52.292-5.986 81.656-5.986 131.012 0 121.186 46.757 133.045 89.675 6.55 25.976 3.275 48.678-10.165 65.506-16.715 22.701-51.162 34.447-101.534 34.447-55.793 0-74.202-9.487-122.767-24.96-27.445-8.81-55.906-10.617-83.69-3.275-55.453 14.456-146.936 36.48-223.284 46.983-40.772 5.647-77.816 26.654-102.438 60.875-55.454 76.8-106.842 148.518-188.273 148.518-21.007 0-40.32-7.567-56.244-22.701-23.492-23.492-33.544-49.581-28.574-79.85 13.778-92.95 128.075-144.79 196.066-182.625 16.037-8.923 28.687-22.589 36.592-39.53l107.86-233.223c7.68-16.377 10.051-34.56 7.228-52.518-12.537-79.059-31.06-211.99 18.748-272.075 10.955-13.44 26.09-21.007 42.917-21.007Zm20.556 339.953c-43.257 126.607-119.718 264.282-129.996 280.32 92.273-43.37 275.916-65.28 275.916-65.28-92.386-88.998-145.92-215.04-145.92-215.04Z" />
+                </g>
+              </svg>
+              <p class="my-8 font-sans font-semibold text-xl text-white">
+                Unduh Materi
+              </p>
+            </a>
+          </div>
+        </article>
+        <article class="inline-block align-top mt-14">
+          <div class="bg-[#146C94] w-[384px] h-[368px] rounded-[10px]">
+            <p class="font-sans font-medium text-xl text-white px-10 py-4">
+              Materi 6
+            </p>
+            <h2
+              class="font-sans font-bold text-4xl text-white pl-10 pr-8 py-6 rounded h-32">
+              Statement Kontrol (Looping)
+            </h2>
+            <p
+              class="font-sans font-normal text-base text-white text-right px-6 py-8">
+              Sabtu, 19 Maret 2023
+            </p>
+            <div class="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="387"
+                height="4"
+                viewBox="0 0 387 4"
+                fill="none"
+                class="bg-white w-[383px]">
+                <path
+                  d="M2 2H385"
+                  stroke="white"
+                  stroke-width="3"
+                  stroke-linecap="round" />
+              </svg>
+            </div>
+            <a href="" class="flex justify-start">
+              <svg
+                fill="#FFFFFF"
+                width="40px"
+                height="40px"
+                viewBox="0 0 1920 1920"
+                xmlns="http://www.w3.org/2000/svg"
+                class="block my-6 mx-6">
+                <g fill-rule="evenodd">
+                  <path
+                    d="M1251.654 0c44.499 0 88.207 18.07 119.718 49.581l329.223 329.224c31.963 31.962 49.581 74.54 49.581 119.717V1920H169V0Zm-66.183 112.941H281.94V1807.06h1355.294V564.706H1185.47V112.94Zm112.94 23.379v315.445h315.445L1298.412 136.32Z" />
+                  <path
+                    d="M900.497 677.67c26.767 0 50.372 12.65 67.991 37.835 41.901 59.068 38.965 121.976 23.492 206.682-5.308 29.14.113 58.617 16.263 83.125 22.814 34.786 55.68 82.673 87.981 123.219 23.718 29.93 60.198 45.854 97.13 40.885 23.718-3.276 52.292-5.986 81.656-5.986 131.012 0 121.186 46.757 133.045 89.675 6.55 25.976 3.275 48.678-10.165 65.506-16.715 22.701-51.162 34.447-101.534 34.447-55.793 0-74.202-9.487-122.767-24.96-27.445-8.81-55.906-10.617-83.69-3.275-55.453 14.456-146.936 36.48-223.284 46.983-40.772 5.647-77.816 26.654-102.438 60.875-55.454 76.8-106.842 148.518-188.273 148.518-21.007 0-40.32-7.567-56.244-22.701-23.492-23.492-33.544-49.581-28.574-79.85 13.778-92.95 128.075-144.79 196.066-182.625 16.037-8.923 28.687-22.589 36.592-39.53l107.86-233.223c7.68-16.377 10.051-34.56 7.228-52.518-12.537-79.059-31.06-211.99 18.748-272.075 10.955-13.44 26.09-21.007 42.917-21.007Zm20.556 339.953c-43.257 126.607-119.718 264.282-129.996 280.32 92.273-43.37 275.916-65.28 275.916-65.28-92.386-88.998-145.92-215.04-145.92-215.04Z" />
+                </g>
+              </svg>
+              <p class="my-8 font-sans font-semibold text-xl text-white">
+                Unduh Materi
+              </p>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+    <!-- Body End -->
+
+    <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+  </body>
+</html>
